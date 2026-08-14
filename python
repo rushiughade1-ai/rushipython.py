@@ -5,3 +5,11 @@ num2 = float(input("enter your second number:")
 
 if operator == +
 print(f"your answer is {num1+num2}")
+elif operator == -
+print(f"your answer is {num1-num2}")
+elif operator == *
+print(f"your answer is {num1*num2}")
+elif operator == /
+print(f"your answer is {num1/num2}")
+else
+print(f"{operator} is not valid")
